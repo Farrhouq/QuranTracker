@@ -1,0 +1,28 @@
+21-
+
+So like for every Sura, we're keeping track of your confidence for it, like that.
+But how's this c-level maintained?
+So like you need to get the question right.
+But are we maintaining the c-level for every sura, page, ayah, 10 pages, Juz, or what?
+That's the issue now.
+I think the 10 pages thing will be nice. Keep it modular.
+So like Baqarah will be divided into 5 parts.
+And like we're keeping the score for each of them.
+And like to strengthen your score for Baqarah, you have to maintain the correctness for the module
+that's decreasing the overall score. Yeah. And also, you can take a general test... and that'll... we'll think about those details later.
+
+Now the concern left is how to actually maintain the score.
+I can't be doing daily tests on each part.
+1. Maybe we can let the score be decreasing as you're not on it, so you can replenish it by redeeming your hifz there.
+2. We can consolidate it for a number of days, so that it's assumed that it stays, then it rotates daily to take your tests.
+    - The problem here is, when the parts get too many, we'll starve some.
+I think I'll go with 1 for now. But then it'll be enforced that you take at least 3 or like 5 tests each day, as in like
+to maintain a streak, or like just so that they don't drop to 0 or something.
+Or I can combine 1 and 2. In that, after some days that they'll start dropping, not instantly. Like 3 days or something. Or some value calculated from the total number of parts covered so far.
+
+Another concern: should all the parts of all the surahs just be readily available to test (and use for daily tests),
+or the user will maintain a list of their confidences, so that they'll just be testing based on that? I mean
+that's been the idea the whole fucking time! But then, how does the user select their range?
+First of all, I need to make sure it's convenient enough a way for them to choose.
+Also, I need to make sure it's a continuous range. Not that it fucking matters, but it does.
+Then, it should also be on the first time
